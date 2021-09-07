@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="platforms_array">
+        <item>酷狗音乐</item>
+        <item>网易音乐</item>
+        <item>QQ音乐</item>
+        <item>咪咕音乐</item>
+    </string-array>
+
+</resources>

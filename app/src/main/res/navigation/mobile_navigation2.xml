@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation2"
+    app:startDestination="@+id/nav_gallery_list">
+
+    <fragment
+        android:id="@+id/nav_gallery_list"
+        android:name="com.shjlone.lxmusic.ui.gallery.GalleryFragment"
+        android:label="歌单"
+        tools:layout="@layout/fragment_gallery" >
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_ranking_list"
+        android:name="com.shjlone.lxmusic.ui.rangkinglist.RankingListFragment"
+        android:label="排行榜"
+        tools:layout="@layout/fragment_ranking_list" >
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.shjlone.lxmusic.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home">
+    </fragment>
+</navigation>
