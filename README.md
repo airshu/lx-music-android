@@ -1,6 +1,6 @@
 # lx-music-android
 
-洛雪音乐助手Android版
+lx音乐助手Android版
 
 ## 介绍
 
